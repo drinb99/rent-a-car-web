@@ -13,19 +13,19 @@ window.onscroll = () => {
 
 const sr = ScrollReveal ({
     distance: '60px',
-    duration: 1500,
+    duration: 2500,
     delay: 200,
     reset: true
 })
 
 sr.reveal('.text',{delay: 200, origin: 'top'})
-sr.reveal('.form-container form',{delay: 400, origin: 'left'})
-sr.reveal('.heading',{delay: 400, origin: 'top'})
-sr.reveal('.vetura-container .box',{delay: 400, origin: 'top'})
-sr.reveal('.sherbimet-container .box',{delay: 400, origin: 'top'})
-sr.reveal('.rrethnesh-container .box',{delay: 400, origin: 'top'})
-sr.reveal('.rishikimet-container',{delay: 400, origin: 'top'})
-sr.reveal('.informohu .box',{delay:  400, origin: 'bottom'})
+sr.reveal('.form-container form',{delay: 200, origin: 'left'})
+sr.reveal('.heading',{delay: 200, origin: 'top'})
+sr.reveal('.vetura-container .box',{delay: 200, origin: 'top'})
+sr.reveal('.sherbimet-container .box',{delay: 200, origin: 'top'})
+sr.reveal('.rrethnesh-container .box',{delay: 200, origin: 'top'})
+sr.reveal('.rishikimet-container',{delay: 200, origin: 'top'})
+sr.reveal('.informohu .box',{delay:  200, origin: 'bottom'})
 
 
 
